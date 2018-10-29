@@ -17,7 +17,7 @@ class Application
         resp.write "#{item}\n"
       end 
     
-    if req.path.match(/add/)
+    # if req.path.match(/add/)
       
     
     elsif req.path.match(/search/)
